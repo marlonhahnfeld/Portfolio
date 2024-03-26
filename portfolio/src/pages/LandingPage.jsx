@@ -1,13 +1,17 @@
-function App() {
+import Header from "../components/Header";
+import HeroSection from "../components/Herosection";
+import Footer from "../components/Footer";
+
+const LandingPage = () => {
   return (
     <>
-      <div className="w-screen h-screen bg-slate-900">
-        <div className="flex flex-col items-center justify-center h-full">
-          <h1 className="text-5xl font-bold text-white">Hello, World!</h1>
-        </div>
+      <Header />
+      <div className="flex flex-col overflow-y-auto pt-16">
+        <HeroSection />
+        <Footer />
       </div>
     </>
   );
-}
+};
 
-export default App;
+export default LandingPage;
