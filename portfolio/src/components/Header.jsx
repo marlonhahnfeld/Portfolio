@@ -6,6 +6,7 @@ const Header = () => {
       <div className="logo">
         <Logo />
       </div>
+     
       <nav className="flex justify-end items-center space-x-4 font-rubik">
         <a href="#" className="text-white hover:text-blue-500">
           Home
