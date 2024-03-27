@@ -1,4 +1,4 @@
-import daisyui from 'daisyui';
+import daisyui from "daisyui";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -12,7 +12,9 @@ export default {
     extend: {
       fontFamily: {
         rubik: ["Rubik", "sans-serif"],
+        figtree: ["Figtree", "sans-serif"],
       },
+      colors: {},
     },
   },
   plugins: [daisyui],
